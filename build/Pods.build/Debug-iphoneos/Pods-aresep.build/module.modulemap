@@ -1,0 +1,6 @@
+framework module Pods_aresep {
+  umbrella header "Pods-aresep-umbrella.h"
+
+  export *
+  module * { export * }
+}

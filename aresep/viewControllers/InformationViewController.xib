@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InformationViewController">
+            <connections>
+                <outlet property="chatButton" destination="haI-Co-f7t" id="BZG-2L-h1e"/>
+                <outlet property="emailButton" destination="L2A-y5-Ub4" id="FR5-75-pEH"/>
+                <outlet property="facebookButton" destination="uKz-M5-NZ2" id="8X3-ss-3vf"/>
+                <outlet property="phoneButton" destination="ldf-sb-kWi" id="MZo-54-gw9"/>
+                <outlet property="twitterButton" destination="f57-4g-71Y" id="7Ia-TT-PPR"/>
+                <outlet property="view" destination="1" id="3"/>
+                <outlet property="viewContent" destination="hd4-9P-ODx" id="kqa-Gz-zDB"/>
+                <outlet property="webButton" destination="879-ZT-hiD" id="XEr-Up-7VQ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="64" width="320" height="416"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" id="hd4-9P-ODx">
+                    <rect key="frame" x="10" y="63" width="300" height="334"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="ldf-sb-kWi">
+                            <rect key="frame" x="20" y="10" width="260" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <inset key="titleEdgeInsets" minX="-34" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="4" minY="4" maxX="220" maxY="5"/>
+                            <state key="normal" title="8000-ARESEP" image="iconTel.png">
+                                <color key="titleColor" red="0.1058823529" green="0.12941176469999999" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="call:" destination="-1" eventType="touchUpInside" id="KBl-Fu-LyF"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="tailTruncation" id="L2A-y5-Ub4">
+                            <rect key="frame" x="20" y="62" width="260" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <inset key="titleEdgeInsets" minX="-34" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="4" minY="4" maxX="220" maxY="5"/>
+                            <state key="normal" title="usuario@aresep.go.cr" image="iconEmail.png">
+                                <color key="titleColor" red="0.1058823529" green="0.12941176469999999" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="sendEmail:" destination="-1" eventType="touchUpInside" id="Mhg-zA-Kzh"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="uKz-M5-NZ2">
+                            <rect key="frame" x="20" y="114" width="260" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <inset key="titleEdgeInsets" minX="-34" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="4" minY="4" maxX="220" maxY="5"/>
+                            <state key="normal" title="Facebook" image="iconFacebook.png">
+                                <color key="titleColor" red="0.1058823529" green="0.12941176469999999" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="showFacebook:" destination="-1" eventType="touchUpInside" id="OMg-NO-6Ux"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="f57-4g-71Y">
+                            <rect key="frame" x="20" y="166" width="260" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <inset key="titleEdgeInsets" minX="-34" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="4" minY="4" maxX="220" maxY="5"/>
+                            <state key="normal" title="Twitter" image="iconTwitter.png">
+                                <color key="titleColor" red="0.1058823529" green="0.12941176469999999" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="showTwitter:" destination="-1" eventType="touchUpInside" id="Gvb-pk-n94"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="879-ZT-hiD">
+                            <rect key="frame" x="20" y="218" width="260" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <inset key="titleEdgeInsets" minX="-34" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="4" minY="4" maxX="220" maxY="5"/>
+                            <state key="normal" title="www.aresep.go.cr" image="iconWeb.png">
+                                <color key="titleColor" red="0.1058823529" green="0.12941176469999999" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="showWebSite:" destination="-1" eventType="touchUpInside" id="ZbY-l0-UbV"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="haI-Co-f7t">
+                            <rect key="frame" x="20" y="270" width="260" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <inset key="titleEdgeInsets" minX="-34" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <inset key="imageEdgeInsets" minX="4" minY="4" maxX="220" maxY="5"/>
+                            <state key="normal" title="Chat" image="iconChat.png">
+                                <color key="titleColor" red="0.1058823529" green="0.12941176469999999" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="showChat:" destination="-1" eventType="touchUpInside" id="b12-ev-C8E"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" id="LN4-CK-lTv">
+                    <rect key="frame" x="37" y="5" width="247" height="50"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="iconChat.png" width="99" height="111"/>
+        <image name="iconEmail.png" width="99" height="111"/>
+        <image name="iconFacebook.png" width="99" height="111"/>
+        <image name="iconTel.png" width="99" height="111"/>
+        <image name="iconTwitter.png" width="99" height="111"/>
+        <image name="iconWeb.png" width="99" height="111"/>
+        <image name="logo.png" width="247" height="50"/>
+    </resources>
+</document>

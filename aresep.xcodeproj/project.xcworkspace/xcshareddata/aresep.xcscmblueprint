@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1CC4146EC94569412F84A223B61559E4622E38B0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1CC4146EC94569412F84A223B61559E4622E38B0" : 0,
+    "0B27CF2CC790155CCED73081EFB1246DA12095DD" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F37CEA9E-DE99-4E25-B385-B831904E7789",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1CC4146EC94569412F84A223B61559E4622E38B0" : "aresep-mi-ruta-ios\/",
+    "0B27CF2CC790155CCED73081EFB1246DA12095DD" : "aresep-mi-ruta-ios\/aresep\/External%20Resources\/EGOImageLoading\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "aresep",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "aresep.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/enormego\/EGOImageLoading.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0B27CF2CC790155CCED73081EFB1246DA12095DD"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/sitg\/aresep-mi-ruta-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1CC4146EC94569412F84A223B61559E4622E38B0"
+    }
+  ]
+}

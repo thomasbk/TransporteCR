@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14133" systemVersion="17E199" minimumToolsVersion="Xcode 7.3" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="App_Data" representedClassName="App_Data" syncable="YES">
+        <attribute name="created_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="modified_date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="Bus_Routes" representedClassName="Bus_Routes" syncable="YES">
+        <attribute name="emailComplaint" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isFraccionamiento" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isRamal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="km" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mapImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="operator" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="operatorTel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentRouteId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentRouteName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="regularFare" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="routeId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="routeName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seniorFare" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Person" syncable="YES">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Rating" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+    </entity>
+    <entity name="SentTrip" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="Boolean" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="tripData" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Train_Routes" representedClassName="Train_Routes" syncable="YES">
+        <attribute name="emailComplaint" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="operator" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="operatorTel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentRouteName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="regularFare" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="routeId" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="routeName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seniorFare" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Trip" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="distance" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="App_Data" positionX="0" positionY="0" width="128" height="90"/>
+        <element name="Bus_Routes" positionX="0" positionY="0" width="128" height="240"/>
+        <element name="Person" positionX="0" positionY="99" width="128" height="90"/>
+        <element name="Train_Routes" positionX="0" positionY="0" width="128" height="165"/>
+        <element name="Trip" positionX="9" positionY="108" width="128" height="105"/>
+        <element name="Rating" positionX="9" positionY="99" width="128" height="90"/>
+        <element name="SentTrip" positionX="18" positionY="108" width="128" height="90"/>
+    </elements>
+</model>
